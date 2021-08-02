@@ -243,7 +243,16 @@ class RequestHandler_httpd(BaseHTTPRequestHandler):
             p34_status = 0
         elif slotID == p35:
             p35_status = 0
+
+    ########################
+    #    RESERVIERUNGEN    #
+    ########################
     
+    # Beispiel:
+    # p35_status = 0
+    # so wird der Parkplatz mit der ID 35 reserviert und auch nicht als frei angezeigt wenn dieser frei ist.
+    p35_status = 0
+
     # hier wird die Summe der FREIEN Parkplätze errechnet
     summe = p1_status + p2_status + p3_status + p4_status + p5_status + p6_status + p7_status + p8_status + p9_status + p10_status + p11_status + p12_status + p13_status + p14_status + p15_status + p16_status + p17_status + p18_status + p19_status + p20_status + p21_status + p22_status + p23_status + p24_status + p25_status + p26_status + p27_status + p28_status + p29_status + p30_status + p31_status + p32_status + p33_status + p34_status + p35_status
     
