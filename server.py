@@ -1,7 +1,7 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 # Hier wird die Adresse des Controller Servers definiert
-server_address_httpd = ('10.10.0.6',80)
+server_address_httpd = ('10.10.0.98',80)
 
 # Variabeln für die ID's der Parkplätze
 p1 = 101
