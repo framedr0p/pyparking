@@ -62,7 +62,6 @@ Serial.begin(9600);
 
 }
 
-
 void loop()
 {
   // Sensor wird von HIGH Puls ausgelöst, der länger als 10 Microsekunden dauert
